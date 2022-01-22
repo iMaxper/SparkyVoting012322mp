@@ -1,0 +1,54 @@
+.AnimalCard {
+  background-color: darkslateblue;
+  color: white;
+  width: 350px;
+}
+
+.AnimalCard .imageContainer {
+  width: 350px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.AnimalCard .imageContainer img {
+  width: 350px;
+}
+
+.AnimalCard .cardBody {
+  padding: 20px;
+  text-align: center;
+}
+
+.AnimalCard .cardBody h5 {
+  text-align: center;
+}
+
+.AnimalCard .cardBody .quote {
+  font-family: cursive;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.AnimalCard .cardBody .votes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.AnimalCard .cardBody .buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.AnimalCard .cardBody .buttons button {
+  padding: 10px;
+  border: none;
+}
+
+.AnimalCard .cardBody .buttons button.freeze {
+  background-color: red;
+}
+
+.AnimalCard .cardBody .buttons button.vote {
+  background-color: greenyellow;
+}
